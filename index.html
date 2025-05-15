@@ -4,16 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scratch Specification</title>
-  <script src="scratchblocks-3.6.1-min.js"></script>
-  <script defer>
-    scratchblocks.renderMatching('pre.blocks', {
-      style:     'scratch3',   // Optional, defaults to 'scratch2'.
-      languages: ['en'],       // Optional, defaults to ['en'].
-      scale: 1,                // Optional, defaults to 1
-    });
-  </script>
 </head>
 <body>
+  <script src="scratchblocks-3.6.1-min.js"></script>
+  
   <h1>
     Test
   </h1>
@@ -21,8 +15,16 @@
   <p>Hello, ScratchBlocks!</p>
 
   <pre class="blocks">
-    when flag clicked
+    when gf clicked
     move (10) steps
   </pre>
+
+  <script>
+    scratchblocks.renderMatching('pre.blocks', {
+      style:     'scratch3',   // Optional, defaults to 'scratch2'.
+      languages: ['en'],       // Optional, defaults to ['en'].
+      scale: 1,                // Optional, defaults to 1
+    });
+  </script>
 </body>
 </html>
