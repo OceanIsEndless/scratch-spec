@@ -1,0 +1,10 @@
+[book]
+title = "Scratch Specification"
+authors = ["Endless-Ocean"]
+description = "A formal programming language specification of Scratch."
+
+[output.html]
+additional-js = ["scratchblocks.js"]
+smart-punctuation = true
+mathjax-support = true
+
